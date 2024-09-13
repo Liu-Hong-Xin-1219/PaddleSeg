@@ -60,10 +60,7 @@
 
     ![alt text](toolwindow.png)
  
-     <div style="color:orange; border-bottom: 1px solid #d9d9d9;
-    display: inline-block;
-    color: #999;
-    padding: 2px;"> 从左到右第3个即为撤销. 鼠标停留在各个按钮上一会儿后, 可以显示各个按钮的功能.  </div>
+     <div style="color:orange; border-bottom: 1px solid #d9d9d9; display: inline-block; color: #999; padding: 2px;"> 从左到右第3个即为撤销. 鼠标停留在各个按钮上一会儿后, 可以显示各个按钮的功能.  </div>
 
     交互完成后使用Space(空格)完成交互标注，此时出现多边形边界，进入多边形标注模式。多边形可以删除，使用鼠标左边可以对锚点进行拖动，鼠标左键双击锚点可以删除锚点，双击两点之间的边则可在此边添加一个锚点。
     ![](drawmask.gif)
