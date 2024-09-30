@@ -9,11 +9,22 @@ EISeg提供多种安装方式，其中使用[pip](#PIP)和[克隆到本地](#克
 
 * PaddlePaddle >= 2.2.0
 
-您必须首先安装PaddlePaddle才能够继续安装. PaddlePaddle安装请参考[官网](https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html)。
+您必须首先安装PaddlePaddle才能够继续安装. PaddlePaddle安装请参考[官网]
+如果您按照本教程进行操作，您可以执行如下指令快速安装paddlepaddle
+```shell
+python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+(https://www.paddlepaddle.org.cn/install/quick?docurl=/documentation/docs/zh/install/pip/windows-pip.html)。
 ![alt text](paddlemainpage.png)
-### 方法1 PIP
 
-pip安装方式如下：
+
+paddle eiseg这一个分割工具的安装方式有如下两种方法：1）方法1 pip方式安装，这也是推荐的安装方式；2）方法2 克隆到本地.
+### 方法1 PIP
+请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
+```shell
+python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
+使用pip安装方式如下：
 
 ```shell
 pip install eiseg
@@ -30,6 +41,10 @@ eiseg
 
 
 ### 方法2 克隆到本地
+请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
+```shell
+python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```
 通过git将PaddleSeg克隆到本地：
 
 ```shell
