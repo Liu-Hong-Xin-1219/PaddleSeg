@@ -7,10 +7,13 @@
 请首先安装paddlepaddle之后,再安装paddleseg.
 
 ## 准备安装
+首先需要安装python和pip，请保证您安装的python版本在3.6到3.10之间。
 
 如果您不了解python, pip等等, 请您查看[安装入门](Install/installfornewbe.md)
 
 EISeg提供多种安装方式，其中使用[pip](#PIP)和[克隆到本地](#克隆到本地)方式可兼容Windows，Mac OS和Linux。为了避免环境冲突，推荐在conda创建的虚拟环境中安装。如果您不了解conda可以不用理会此句. 
+
+
 
 ## 安装paddlepaddle
 

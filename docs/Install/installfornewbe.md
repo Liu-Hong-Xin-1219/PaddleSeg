@@ -19,7 +19,7 @@ Python是一门编程语言，Label_studio需要python 3.6以上的版本。可�
 1.4. 如果电脑是64位，则点击Windows installer(64-bit)，否则是32位，点击Windows installer(32-bit)。你会下载好一个安装包
 查看自己电脑是64位还是32位请[点击此教程](https://baijiahao.baidu.com/s?id=1808041429607662313&wfr=spider&for=pc). 一般而言,2018年以后的电脑大部分是64位的, 2020年以后的电脑绝大部分都是64位的
 
-1.5. 下载好之后双击安装包，出现如下画面。勾选其中的“Add python.exe to PATH”,点击Install Now，稍作等待即可。完成后您便安装好了python 3.12.5版本
+1.5. 下载好之后双击安装包，出现如下画面。勾选其中的“Add python.exe to PATH”,点击Install Now，稍作等待即可。完成后您便安装完成。本项目要求安装的python版本最低为3.6版本，最高为3.10版本，下图只是演示需要在哪些地方打勾，请不要安装3.12版本。
 ![python下载界面]( image-3.png)
 
 1.6. 您可以通过1.1和1.2步检查python是否安装成功，如果显示Python 3.12.5则安装成功
