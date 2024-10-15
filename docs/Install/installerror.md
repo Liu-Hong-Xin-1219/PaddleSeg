@@ -22,3 +22,10 @@ pip install numpy==1.24.4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ### pip._vendor.urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='....', port=443): Read timed out.
 这是因为部分pip包的安装需要访问外网, 这一过程速度很慢,所以请尝试在安装指令之后加上以下指令使用国内的清华源进行安装.
 `pip install numpy` -> `pip install numpy -i https://pypi.tuna.tsinghua.edu.cn/simple`
+
+### 导入图片之后没有反应，或者导入模型之后报错
+可能是因为没有安装cudnn
+1. 检查电脑cuda版本号码:`nvcc --version`
+2. 检查是否安装cudnn, [检查cudnn是否安装的教程](https://blog.csdn.net/qq_41825704/article/details/132816183)
+3. [cudnn安装教程](https://blog.csdn.net/weixin_52677672/article/details/135853106), 根据教程和cuda版本安装对应的cudnn
+
