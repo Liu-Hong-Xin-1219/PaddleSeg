@@ -92,7 +92,7 @@ def Eiseg2paddlex(save_folder,
                 lab = tmps[i].split(" ")[1]
                 wf.write(lab + "\n")
     print("===== create label finished! =====")
-    # create list
+    # create list   
     train_list_path = osp.join(save_folder, "train_list.txt")
     eval_list_path = osp.join(save_folder, "val_list.txt")
     new_imgs_name = os.listdir(save_img_folder)

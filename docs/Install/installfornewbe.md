@@ -36,3 +36,9 @@ Pip是与python配套的包安装工具，我们需要使用这个工具安装la
 ![alt text]( image-5.png)
 
 2.4	安装完成之后，您可以执行2.1和2.2查看是否安装成功。
+
+# 3. cuda和cudnn安装和确认
+一般而言,有显卡的计算机都已经安装了cuda和cudnn,所以我们首先应当检查cuda和cudnn是否已经安装,并且检查其版本.
+检查两者的版本和安装,详见[这篇文档](https://blog.csdn.net/erdaidai/article/details/125846275)
+
+

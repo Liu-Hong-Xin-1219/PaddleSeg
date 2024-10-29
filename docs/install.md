@@ -26,7 +26,8 @@ EISeg提供多种安装方式，其中使用[pip](#PIP)和[克隆到本地](#克
 ```shell
 python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
 ```
-如果您的机器有GPU,推荐使用以下指令安装paddlepaddle.如果以下指令安装失败,请还是按照上面的指令进行安装.
+如果您的机器有GPU,推荐使用以下指令安装paddlepaddle,使用GPU加速标注. 请确认您是否安装了cuda和cudnn.如果您不清楚cuda和cudnn,请阅读[安装入门](Install/installfornewbe.md)
+如果以下使用GPU的指令安装失败,或者cuda\cudnn安装不顺利,请还是按照上面的指令进行安装到CPU上
 ```shell
 python -m pip install paddlepaddle-gpu==2.6.1.post112 -f https://www.paddlepaddle.org.cn/whl/windows/mkl/avx/stable.html
 ```

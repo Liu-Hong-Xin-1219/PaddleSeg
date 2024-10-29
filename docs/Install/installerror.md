@@ -29,3 +29,6 @@ pip install numpy==1.24.4 -i https://pypi.tuna.tsinghua.edu.cn/simple
 2. 检查是否安装cudnn, [检查cudnn是否安装的教程](https://blog.csdn.net/qq_41825704/article/details/132816183)
 3. [cudnn安装教程](https://blog.csdn.net/weixin_52677672/article/details/135853106), 根据教程和cuda版本安装对应的cudnn
 
+
+
+
