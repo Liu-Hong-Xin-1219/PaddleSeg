@@ -16,6 +16,7 @@
 * [图像分割标注说明](docs/image.md)
 * [PCB数据标注流程图解](docs/pcbseg/pcbseg.md)
 * [标注数据要求文档](docs/requirement/requirement.md)
+* [点列功能文档](docs\pcbseg\pointline.md)
 
 以下内容与本项目无关，是原文档自带的内容。如果您想了解更多可以在[官方文档](https://gitee.com/paddlepaddle/PaddleSeg)查看详情.
 _____
