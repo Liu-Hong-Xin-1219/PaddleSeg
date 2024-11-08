@@ -36,7 +36,44 @@ python -m pip install paddlepaddle-gpu==2.6.1.post112 -f https://www.paddlepaddl
 
 
 paddle eiseg这一个分割工具的安装方式有如下两种方法：1）方法1 pip方式安装，这也是推荐的安装方式；2）方法2 克隆到本地.
-### 方法1 PIP
+
+
+
+### 方法1 克隆到本地
+本方法下载的程序拥有[点列功能](docs\pcbseg\pointline.md),请用本方法
+请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
+```shell
+python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
+```通过git将PaddleSeg克隆到本地：
+
+```shell
+git clone https://github.com/Liu-Hong-Xin-1219/jrsPaddleSeg
+```
+
+安装所需环境,如果你之前已经安装了paddleseg, **此步可以跳过**：
+
+```shell
+pip install -r requirements.txt
+```
+
+安装好所需环境后，进入EISeg，可通过直接运行eiseg打开EISeg：
+
+```shell
+cd jrsPaddleSeg\EISeg
+python -m eiseg
+```
+
+或进入eiseg，运行exe.py打开EISeg：
+
+```shell
+cd jrsPaddleSeg\EISeg\eiseg
+python exe.py
+```
+
+
+
+### 方法2 PIP
+本方法已废弃,因为不具有点列功能.
 请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
 ```shell
 python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -55,40 +92,5 @@ pip会自动安装依赖。安装完成后命令行输入：
 eiseg
 ```
 即可运行软件。
-
-
-### 方法2 克隆到本地
-请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
-```shell
-python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
-```
-通过git将PaddleSeg克隆到本地：
-
-```shell
-git clone https://github.com/PaddlePaddle/PaddleSeg.git
-#或者
-git clone https://gitee.com/PaddlePaddle/PaddleSeg.git
-```
-
-安装所需环境（若需要使用到GDAL和SimpleITK请参考**垂类分割**进行安装）：
-
-```shell
-pip install -r requirements.txt
-```
-
-安装好所需环境后，进入EISeg，可通过直接运行eiseg打开EISeg：
-
-```shell
-cd PaddleSeg\EISeg
-python -m eiseg
-```
-
-或进入eiseg，运行exe.py打开EISeg：
-
-```shell
-cd PaddleSeg\EISeg\eiseg
-python exe.py
-```
-
 
 
