@@ -8,7 +8,7 @@
 
 # 1. 安装
 与[安装说明](docs\install.md)类似,只不过需要从[笔者建立的仓库 jrsPaddleSeg](
-https://github.com/Liu-Hong-Xin-1219/jrsPaddleSeg)执行 方法2克隆到本地 , 执行具体安装操作如下:
+https://gitee.com/liu-hongxin2/jrs-paddle-seg)执行 方法2克隆到本地 , 执行具体安装操作如下:
 前面部分paddlepaddle的安装等和说明书一致.
 ### 方法: 克隆到本地
 请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
@@ -18,7 +18,7 @@ python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/s
 通过git将PaddleSeg克隆到本地：
 
 ```shell
-git clone https://github.com/Liu-Hong-Xin-1219/jrsPaddleSeg
+git clone https://gitee.com/liu-hongxin2/jrs-paddle-seg
 ```
 
 安装所需环境,如果你之前已经安装了paddleseg, **此步可以跳过**：
