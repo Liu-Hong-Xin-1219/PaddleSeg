@@ -30,14 +30,14 @@ pip install -r requirements.txt
 安装好所需环境后，进入EISeg，可通过直接运行eiseg打开EISeg：
 
 ```shell
-cd jrsPaddleSeg\EISeg
+cd jrs-paddle-seg\EISeg
 python -m eiseg
 ```
 
 或进入eiseg，运行exe.py打开EISeg：
 
 ```shell
-cd jrsPaddleSeg\EISeg\eiseg
+cd jrs-paddle-seg\EISeg\eiseg
 python exe.py
 ```
 # 2. 界面说明
