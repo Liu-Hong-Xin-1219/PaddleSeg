@@ -37,10 +37,20 @@ python -m pip install paddlepaddle-gpu==2.6.1.post112 -f https://www.paddlepaddl
 
 paddle eiseg这一个分割工具的安装方式有如下两种方法：1）方法1 pip方式安装，这也是推荐的安装方式；2）方法2 克隆到本地.
 
-
+### 更新工具: 如果您已经安装过jrs-paddle-seg
+首先,检查您是否已经安装过jrs-paddle-seg. 
+```
+cd jrs-paddle-seg
+```
+如果报错类似"系统找不到指定的路径。",则请从**方法1 克隆到本地**开始
+如果没有显示"文件地址未找到"之类的,则使用下面的指令完成更新:
+```
+git checkout develop
+git pull
+```
 
 ### 方法1 克隆到本地
-本方法下载的程序拥有[点列功能](pcbseg/pointline.md),请用本方法
+本方法下载的程序拥有[阵列功能](pcbseg/copyPoly.md),请用本方法
 请**确保**您已经完成了PaddlePaddle的安装之后再执行接下来的步骤。paddlepaddle的安装在本页上面的部分。您也可以执行下面的指令快速安装paddlepaddle
 ```shell
 python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/simple
@@ -50,7 +60,7 @@ python -m pip install paddlepaddle==2.6.1 -i https://pypi.tuna.tsinghua.edu.cn/s
 通过git将定制的,具有点列功能的,jrsPaddleSeg克隆到本地：
 
 ```shell
-git clone https://gitee.com/liu-hongxin2/jrs-pa.git
+git clone https://gitee.com/liu-hongxin2/jrs-paddle-seg.git
 ```
 
 安装所需环境,如果你之前已经安装了paddleseg, **此步可以跳过**：
